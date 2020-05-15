@@ -1,0 +1,283 @@
+/* global */
+html{
+    font-family: 'Montserrat', sans-serif
+}
+
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+.home-page{
+    background-image: url("images/Home\ –\ bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: 0 auto;
+}
+.navigation{
+    height: 70px;
+    margin-top: 30px;
+}
+
+/* logo */
+.brand{
+    position: absolute;
+    padding-left: 0;
+    float: left;
+}
+
+/* container with no padding for navbar */
+.nav-container{
+    margin: 0 auto;  
+}
+
+/* navigation */
+nav{
+    float: right;
+    padding-top: 20px;
+}
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    position: relative;   
+}
+.nav-a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* paragraph */
+p{
+    color: grey;
+    line-height: 2rem; 
+    font-weight: 400;
+}
+
+/* index */
+.icons{
+    width: 280px;
+    display: flex;
+    margin-top: 40px;
+}
+.icons-icon{
+    display: inline-block;
+    flex: 1;
+}
+/*main*/
+.main{
+    padding-top: 40px;
+    width:65%;
+    /* margin-top: 30px; */
+}
+h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.span-main{
+    font-weight: 300;
+}
+.span-nav{
+    color: #C77BAE;
+    font-weight: 600;
+    border-bottom:3px solid #C77BAE;
+
+}
+button{
+    padding: 20px 40px;
+    background-color: #C77BAE;
+    border: none;
+    border-radius: 86px;
+    font-size: 1rem;
+    color: #ffffff;
+    box-shadow: 0 10px 20px grey;
+}
+.btn-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/* portfolio */
+.project-page{
+    background-image: url(images/Projects\ –\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: 0 auto;
+}
+.projects{
+    display: flex;
+    align-items: center;
+}
+.left{
+    flex:1;
+    margin-right: 150px; 
+}
+.slides-left{
+    margin-top: -400px;
+}
+.about-left{
+    flex:1;
+    margin-right: 150px; 
+    margin-top: -400px; 
+}
+.right{
+    margin-top: 50px;
+    flex: 3;
+}
+.slides{
+    flex:2.5;
+    display: flex;  
+    margin-bottom: 60px;
+}
+.btn2{
+    padding: 6px 20px;
+    background-color:#ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #C77BAE;
+    box-shadow: 0 10px 30px grey;
+    margin-right: 2.5rem;
+}
+h4{
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+h2{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 50px grey;
+    margin-right: 40px;
+}
+.picture{
+    width: 250px;
+    height: 250px;
+    /* background-size: cover; */
+    border-radius: 50px 50px 0 0;
+}
+.intro{
+    padding: 6px 30px;
+}
+h3{
+    font-size: 1rem;
+}
+.project-des{
+    color: grey;
+}
+.project-link-div{
+    display:flex;
+}
+.project-link{
+    flex: 1;
+    text-decoration: none;
+    color:  #C77BAE
+ ;
+    font-weight:600;
+}
+.project-link:hover{
+    color:  #075c86;
+}
+
+/* about */
+.about-page{
+    background-image: url(images/About\ –\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+}
+.item-icon{
+    flex:1;
+}
+.item-des{
+    margin-left: 30px;
+    flex:3;
+}
+
+/* contact */
+.contact-page{
+    background-image: url(images/Contact\ –\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: 0 auto;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+form{
+    padding: 40px 0;
+}
+
+input{
+    border: none;
+    border-bottom:2px solid #C77BAE;
+    line-height: 2rem;
+  margin: 10px 0;
+}
+textarea{
+    border: none;
+    border-bottom:2px solid #C77BAE;
+    line-height: 2rem;
+}
+.btn3{
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #C77BAE;
+    border: none;
+    border-radius: 86px;
+    font-size: 1rem;
+    color: #ffffff;
+    box-shadow: 0 10px 20px grey;
+}
+.contact-right{
+    flex:2;
+    margin-right: -500px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.personal{
+    margin-top: 30px;
+}
+.personal-info{
+    display: flex;
+    margin: 20px 0;
+
+}
+.personal-img{
+    margin-right: 40px;
+    justify-content: center;
+}
+h5{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 0;
+    justify-content: center;
+}
